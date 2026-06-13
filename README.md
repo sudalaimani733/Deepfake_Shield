@@ -12,7 +12,6 @@ An AI-powered web application that detects whether an uploaded image is real or 
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Python (Flask/FastAPI - mention whichever you used)
 - **ML Model:** Vision Transformer (ViT)
-- **Deployment:** Vercel
 
 ## How It Works
 1. User uploads an image via the web interface
@@ -27,7 +26,6 @@ cd Deepfake_Shield/backend
 pip install -r requirements.txt
 python app.py
 ```
-Open `frontend/index.html` in browser
 
 ## Dataset
 Trained on a real vs AI-generated image dataset sourced from Kaggle.
